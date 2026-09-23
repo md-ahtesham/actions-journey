@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: prints greetings
         run: echo " hello Good Morning"
+      - name: list
+        run: ls -l /root/
