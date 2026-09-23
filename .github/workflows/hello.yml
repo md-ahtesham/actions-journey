@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: prints greetings
-        run: echo " hello Good Morning"
+        run: echo " hello Good Morning "
