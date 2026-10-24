@@ -13,3 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo " Notify for environment- ${{ inputs.environment}}"
+      - name: Prove the secret arrived
+        run: test -n "$TOKEN"
+        env:
+          TOKEN: ${{ secrets.NOTIFY_TOKEN }}
