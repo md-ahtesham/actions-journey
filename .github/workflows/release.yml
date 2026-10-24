@@ -1,0 +1,9 @@
+name: release
+on: push
+jobs:
+  notify:
+    uses: ./.github/workflows/notify.yml
+    with:
+      environment: production
+    secrets:
+      NOTIFY_TOKEN: ${{ secrets.NOTIFY_TOKEN}}
