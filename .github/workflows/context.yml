@@ -1,6 +1,6 @@
 name: new contexts
 on:
-  push:
+  workflow_dispatch:
 jobs:
   contexts:
     runs-on: ubuntu-latest
