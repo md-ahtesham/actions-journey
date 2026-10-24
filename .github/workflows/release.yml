@@ -1,7 +1,7 @@
 name: release
 on: push
 jobs:
-  notify:
+  release:
     uses: ./.github/workflows/notify.yml
     with:
       environment: production
