@@ -1,4 +1,4 @@
-name: notify
+name: notify-workflow
 on:
   workflow_call:
     inputs:
