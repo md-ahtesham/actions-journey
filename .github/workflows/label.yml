@@ -1,6 +1,6 @@
 name: label format
 on:
-  push:
+  workflow_dispatch:
 jobs:
   label:
     runs-on: ubuntu-latest
