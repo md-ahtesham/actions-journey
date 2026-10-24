@@ -1,5 +1,5 @@
 name: deps
-on: push
+on: workflow_dispatch
 jobs:
   install:
     runs-on: ubuntu-latest
