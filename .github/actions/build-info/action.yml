@@ -3,7 +3,7 @@ description: Print branch and commit
 runs:
   using: composite
   steps:
-    - runs: echo "Branch $GITHUB_REF_NAME"
+    - run: echo "Branch $GITHUB_REF_NAME"
       shell: bash
-    - runs: echo "Commit $GITHUB_SHA"
+    - run: echo "Commit $GITHUB_SHA"
       shell: bash
