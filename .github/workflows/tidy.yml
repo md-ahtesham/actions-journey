@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Print the number of filed
-        run: find . -type -f | wc -l
+        run: find . -type f | wc -l
